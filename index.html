@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make Website With Tailwind CSS</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="container min-h-screen bg-[url(images/image.png)] bg-cover bg-center px-28 py-5 relative">
+    <nav class="flex items-center ">
+      <img class="w-40 cursor-pointer" src="images/logo.png">
+      <ul class="flex-1 text-center">
+        <li class="list-none inline-block mx-5 "><a
+            class="px-2 no-underline text-white  hover:text-yellow-300 duration-300" href="#">Home</a></li>
+        <li class="list-none inline-block mx-5 "><a
+            class=" hover:text-yellow-300 duration-300 px-2 no-underline text-white" href="#">About</a></li>
+        <li class="list-none inline-block mx-5 "><a
+            class="px-2 no-underline text-white  hover:text-yellow-300 duration-300" href="#">Feature</a></li>
+        <li class="list-none inline-block mx-5 "><a
+            class="px-2 no-underline text-white  hover:text-yellow-300 duration-300" href="#">Contact</a></li>
+      </ul>
+      <img src="images/cart.png" class="w-8 cursor-pointer">
+    </nav>
+
+    <div class="mt-48 text-white max-w-xl">
+      <h1 class="text-6xl font-semibold leading-normal">Groceries <br> delivery in <span class="font-light">15
+          mins</span></h1>
+      <p>Grocify offer a wide range of products, including fresh products, meats, dairy, baked goods and non-perishable
+        items.</p>
+      <div class="mt-10">
+        <a href="#"
+          class="bg-yellow-300 text-black px-8 py-4 rounded-3xl font-medium mr-4 inline-block hover:bg-transparent hover:text-white  hover:border hover:border-yellow-300 duration-500 border border-transparent">Order
+          Now</a>
+        <a href="#">Download App <span class="inline-block text-lg rotate-90">&#10148</span></a>
+      </div>
+    </div>
+    <img src="images/grocery-image.png" class="w-full xl:w-1/2 xl:absolute bottom-0 right-20">
+
+  </div>
+
+</body>
+
+</html>
